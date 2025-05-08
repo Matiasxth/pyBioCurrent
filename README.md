@@ -38,7 +38,7 @@ Advertencia:
 Esta librería tiene fines exclusivamente investigativos y educativos. Su uso en seres vivos debe respetar la ética científica. Cualquier intento de aplicar estimulación eléctrica debe tener una base experimental segura y nunca con fines invasivos o sin revisión ética.
 """
 
-⚡ Ejemplo de uso
+⚡ Ejemplo de uso:
 from pybiocurrent.signal import BioNode
 from pybiocurrent.translate import traducir_binario
 
