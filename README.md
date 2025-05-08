@@ -24,10 +24,13 @@ Amplitudes esperadas: 10 µV a 200 mV (dependiendo de la especie y método de co
 La traducción de estas señales, así como su interacción entre organismos, abre una vía experimental para estudiar un lenguaje bioeléctrico aún no decodificado completamente.
 
 Componentes:
-- signal.py: Adquisición y preprocesamiento de señales (con filtros fisiológicamente relevantes).
-- translate.py: Conversión de patrones eléctricos a representaciones binarias o visuales.
-- stimulus.py: Generación controlada de impulsos eléctricos.
-- network.py: Comunicación e interacción entre múltiples nodos biológicos.
+| Módulo        | Descripción                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| `signal.py`   | Lectura y filtrado de señales eléctricas de organismos vivos               |
+| `translate.py`| Traducción de señales a patrones binarios                                  |
+| `stimulus.py` | Generación de estímulos eléctricos seguros                                 |
+| `network.py`  | Comunicación entre nodos biológicos eléctricos                             |
+| `utils.py`    | Análisis (FFT), normalización y herramientas matemáticas                   |
 
 🔧 Funcionalidades
 Módulo	Descripción
