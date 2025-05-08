@@ -56,6 +56,7 @@ mensaje = traducir_binario(datos, umbral=0.015)
 print(\"Mensaje simbólico:\", mensaje)
 
 📖 Bibliografía científica
+
 Volkov, A. G. (2006). Plant Electrophysiology. Springer.
 
 Fromm, J., & Lautner, S. (2007). Electrical signals and their physiological significance in plants. Plant, Cell & Environment.
