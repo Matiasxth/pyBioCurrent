@@ -1,3 +1,5 @@
+import numpy as np  # <-- IMPORTACIÓN NECESARIA
+
 def normalizar(datos):
     return (datos - np.min(datos)) / (np.max(datos) - np.min(datos))
 
